@@ -62,7 +62,7 @@ python scripts/distance_to_opt.py
 ```
 to compute the initial distances to the global optimum for each optimizer.
 This is necessary to plot the theoretical bounds in Figure 1.
-Now you can general the plots by running,
+Now you can generate the plots by running,
 ```
 python scripts/make_figure_1.py
 python scripts/make_figure_2.py
