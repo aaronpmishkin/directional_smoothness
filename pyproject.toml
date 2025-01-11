@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stepback"
+version = "0.0.1"
+authors = [
+  { name="Fabian Schaipp", email="fabian.schaipp@gmail.com" },
+  { name="Aaron Mishkin", email="amishkin@cs.stanford.edu" },
+]
+description = ""
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy==1.26.4",
+    "torch",
+    "torchvision",
+    "scikit-learn",
+    "scipy",
+    "typing_extensions",
+    "tqdm",
+    "pandas",
+    "matplotlib",
+    "experiment_utils @ git+https://github.com/aaronpmishkin/experiment_utils.git@7c7d9493f1e2f13f71277418f964ef513a715dd1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+scaffold = ["py.typed"]
