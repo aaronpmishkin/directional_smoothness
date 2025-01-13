@@ -1,4 +1,4 @@
-# Optimal Sets and Solution Paths of ReLU Networks 
+# Directional Smoothness and Gradient Methods: Convergence and Adaptivity 
 
 Code to replicate experiments in the paper 
 [Directional Smoothness and Gradient Methods: Convergence and Adaptivity](https://openreview.net/forum?id=m9WZrEXWl5) by Aaron 
