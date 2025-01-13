@@ -65,7 +65,8 @@ This is necessary to plot the theoretical bounds in Figure 1.
 Now you can generate the plots by running,
 ```
 python scripts/make_figure_1.py
-python scripts/make_figure_2.py
+python scripts/make_figure_3.py
+python scripts/make_figure_4.py
 ```
 
 Note that the UCI datasets must be manually retrieved from 
